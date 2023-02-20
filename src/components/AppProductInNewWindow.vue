@@ -88,7 +88,7 @@
               v-if="show === false">
             Добавить в корзину
           </button>
-          <router-link to="shop/cart">
+          <router-link to="/shop/catalog/cart">
           <button v-if="show === true"
                   class="rounded-lg w-full h-[45px] text-white bg-slate-500
                   mt-[20px] font-bold hover:transition hover:scale-105 duration-300"

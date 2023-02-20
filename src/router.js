@@ -9,11 +9,10 @@ import AppProductInNewWindow from "./components/AppProductInNewWindow";
 export default createRouter({
     history: createWebHistory(),
     routes: [
+        {path: '/shop/catalog/:id', component: AppProductInNewWindow},
+        {path: '/shop/catalog/cart', component: AppCart},
         {path: '/shop/catalog', component: AppCatalog},
-        {path: '/shop/cart', component: AppCart},
         {path: '/shop', component: AppHome},
-        {path: '/shop/catalog/:id',
-            component: AppProductInNewWindow,}
     ],
 
     linkActiveClass: 'active',

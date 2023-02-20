@@ -5,7 +5,7 @@
       <li  class="mr-5"><router-link to="/shop">
         <img src="../assets/img/home.png" alt="" height="24" width="27" class="">
       </router-link></li>
-      <li><router-link to="/shop/cart" class="cart">
+      <li><router-link to="/shop/catalog/cart" class="cart">
         <div class="navbar-pc__notify absolute bg-red-500	text-[10px] leading-3	text-white min-w-[16px] -top-[6px]
         -right-[8px] rounded-full py-0.5 z-10	px-1.5" v-if="totalCountProduct > 0">
           {{ totalCountProduct }}

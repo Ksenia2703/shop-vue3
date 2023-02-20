@@ -1,14 +1,14 @@
 <template>
     <h1 class="text-4xl font-bold pb-3.5 max-[450px]:pb-6">Каталог товаров</h1>
     <div>
-      <app-loader v-if="this.load === true">
+      <app-loader v-if="load === true">
 
       </app-loader>
 
       <div
           class="flex-col justify-start "
           style="display: flex"
-          v-show="this.load === false">
+          v-show="load === false">
         <app-filter-products
             @click="getFilterDiscount($event), getFilterDelivery($event)">
 

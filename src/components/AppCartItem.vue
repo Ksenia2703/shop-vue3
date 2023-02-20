@@ -1,6 +1,6 @@
 <template>
   <router-link
-      :to="`/${product_data.article}`">
+      :to="`/shop/catalog/${product_data.article}`">
     <div
         class="hover-cursor rounded-lg p-5 hover:shadow-custom max-[450px]:p-[10px] max-[840px]:hover:shadow-none"
         @click="articleForNewWindowInCartItem">
